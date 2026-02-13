@@ -5,9 +5,10 @@ for i in mi_lista:
     print("El numero es:", i)
 
     resultado = 0
-    for i in mi_lista:
+for i in mi_lista:
         resultado += i
 
         print(f"El resultado de la suma de mi lista es:{resultado}")
-        for i in range(2, 9):
+       
+for i in range(2, 9):
             print(i)
