@@ -12,3 +12,8 @@ for i in mi_lista:
        
 for i in range(2, 9):
             print(i)
+
+mi_lista_2 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
+for i in mi_lista_2:
+        if i != "lunes":
+                print(f"Feliz{i}!")
